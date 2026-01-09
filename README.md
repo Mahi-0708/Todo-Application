@@ -75,3 +75,21 @@ GET    http://localhost:8080/todos/{todoId}
 PUT    http://localhost:8080/todos/{todoId}
 
 DELETE http://localhost:8080/todos/{todoId}
+
+
+2️⃣ Frontend Setup
+
+cd frontend
+
+npm install
+
+npm run dev
+
+Vite runs on http://localhost:5173
+
+
+CORS
+
+Allow http://localhost:5173 in your backend (Spring Boot).
+
+
