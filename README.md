@@ -51,3 +51,27 @@ OAuth 2.0 (Google Login)
 JPA & Hibernate
 MySQL
 Lombok
+
+
+
+🔗 Backend Endpoints Used
+
+🔐 Authentication
+
+POST   http://localhost:8080/auth/signup
+
+POST   http://localhost:8080/auth/login
+
+POST   http://localhost:8080/auth/google
+
+✅ Todo Management
+
+GET    http://localhost:8080/todos
+
+POST   http://localhost:8080/todos
+
+GET    http://localhost:8080/todos/{todoId}
+
+PUT    http://localhost:8080/todos/{todoId}
+
+DELETE http://localhost:8080/todos/{todoId}
